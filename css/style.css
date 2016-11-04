@@ -1,0 +1,56 @@
+#main{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr{
+    padding: 17px;
+}
+
+#main td{
+    height: 30px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.place{
+    width: 38px;
+    max-width: 38px;
+    min-width: 38px;
+    text-align: left;
+    padding-left: 11px;
+}
+.name{
+    min-width: 150px;
+    text-align: left;
+    padding-left: 10px;
+    border-right: 1px solid #d8d8d8;
+}
+.name a{
+    padding-left: 4px;
+    color: #006496;
+    text-decoration: none;
+}
+.matches, .win, .draw, .lose, .goals, .conceded_goals, .score{
+    width: 48px;
+    min-width: 48px;
+    max-width: 48px;
+}
+.matches:first-child, .win:first-child, .draw:first-child, .lose:first-child, .goals:first-child, .conceded_goals:first-child, .score:first-child{
+    color: #006496;
+}
+tr:first-child{
+    color: #006496;
+    border-top: 1px solid #d8d8d8;
+}
+td:nth-child(2){
+    color: black;
+}
+.conceded_goals{
+    text-align: right;
+    padding-right: 10px;
+}
+.score{
+    background-color: #f9f9f7;
+    text-align: right;
+    padding-right: 10px;
+}
